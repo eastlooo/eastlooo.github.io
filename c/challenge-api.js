@@ -1,5 +1,5 @@
 export const SUPABASE_URL = 'https://tywockrstnlmqwxdhxvk.supabase.co';
-export const SUPABASE_ANON_KEY = '__SUPABASE_ANON_KEY__';
+export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5d29ja3JzdG5sbXF3eGRoeHZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzY5NTcsImV4cCI6MjA4NjkxMjk1N30.Iv9xzgsqiNWTCTTgH-TysqEYD-90IEFb_OjX6BrpiTo';
 export function normalizeCode(value) { return (value ?? '').trim().toUpperCase(); }
 export function isCode(code) { return /^[ABCDEFGHJKLMNPQRSTUVWXYZ23456789]{8}$/.test(code); }
 export function appUrl(code) { return `https://eastlooo.github.io/c/?k=${encodeURIComponent(code)}`; }
